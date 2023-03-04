@@ -1,0 +1,198 @@
+/* header */
+.icons span {
+    color: white;
+    margin: 0px 5px;
+}
+
+/* maincontest */
+.maincontest{
+    /* background-image: url("https://emarsys.com/app/uploads/2022/05/PizzaHut-header-2280x900px.jpg"); */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://emarsys.com/app/uploads/2022/05/PizzaHut-header-2280x900px.jpg") no-repeat;
+    
+    background-size: 100% 100%;
+    /* height: 70vh; */
+    height: 500px;
+} 
+
+.maincontest h1,.maincontest p {
+    color: white;
+    margin: 30px 0px;
+    width: 40%;
+}
+
+.maincontest h1{
+    font-size: 60px !important;
+}
+.maincontest .line {
+    color: red;
+    width: 30%;
+    background-color: red;
+    height: 5px;
+    padding: 5px;
+}
+
+/* about */
+.about {
+    background-color: black;
+    display: flex;
+}
+
+.about h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.about .line1{
+    color: red;
+    width: 30%;
+    margin: 10px auto;
+    background-color: red;
+    height: 5px;
+}
+.about .prt1 {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: justify;
+}
+
+.about .col-md-6 .line2 {
+    color: red;
+    width: 90%;
+    background-color: red;
+    height: 5px;
+    /* display: flex; */
+    /* align-self: center; */
+    /* padding: 5px; */
+}
+
+.about p {
+    color: white;
+    display: flex;
+    align-self: center;
+}
+.about img{
+    width: 90%;
+    height:80%;
+}
+
+.menu {
+    background-color: black;
+    display: flex;
+    color: white;
+}
+.menu .line1{
+    color: red;
+    width: 30%;
+    margin: 10px auto;
+    background-color: red;
+    height: 5px;
+}
+.menu  h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.menu .prt1 .crd {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid yellowgreen; */
+    margin: 15px;
+}
+.menu .prt1 img {
+    width: 40%;
+    /* height:20% !important; */
+}
+.menu .prt1 .crd .txt {
+    padding-right: 30px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.find {
+    background-color: black;
+    display: flex;
+    color: white;
+    padding-bottom: 30px;
+}
+.find .line1{
+    color: red;
+    width: 30%;
+    margin: 10px auto;
+    background-color: red;
+    height: 5px;
+}
+.find  h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.find .prt2 {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+footer img {
+    width: 100px;
+}
+footer .pt2 {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    padding-left: 30%;
+}
+
+.call{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    footer .pt1{
+        display: flex;
+        justify-content: center;
+    }
+    .maincontest h1,.maincontest p {
+        width: 85%;
+    }
+    footer .pt2 {
+        padding-left: 20%;
+    }
+    .maincontest h1{
+        font-size: 40px !important;
+    }
+}
+@media only screen and (max-width: 375px){
+    .maincontest h1,.maincontest p {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 920px) and (min-width :601px) {
+    .maincontest h1,.maincontest p {
+        width: 75%;
+    }
+    footer .pt2 {
+        padding-left: 20%;
+    }
+    .maincontest h1{
+        font-size: 50px !important;
+    }
+}
